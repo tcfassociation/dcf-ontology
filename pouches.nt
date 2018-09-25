@@ -42,6 +42,7 @@
 <http://tcftest.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
 <http://tcftest.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/SteamEngine> .
+<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Waggon> .
 <http://tcftest.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcftest.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Rail Pouch, you will find data typically from the following documents; Rail Consignment Note." .
 <http://tcftest.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
