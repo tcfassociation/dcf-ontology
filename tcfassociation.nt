@@ -21,7 +21,7 @@
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#description> "Package in rail dd" .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Package" .
-<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-09-10T10:02:20.414Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-10-04T11:43:42.787Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "long" .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#description> "short" .
@@ -35,5 +35,6 @@
 <http://tcftest.org/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of the thing." .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
+<http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SteamEngine> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight" .
