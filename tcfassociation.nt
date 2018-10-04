@@ -21,7 +21,7 @@
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#description> "Package in rail dd" .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Package" .
-<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-10-04T11:43:42.787Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-10-04T11:49:46.160Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "long" .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#description> "short" .
