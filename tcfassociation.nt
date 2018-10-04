@@ -23,8 +23,8 @@
 <http://tcftest.org/schema/newProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
 <http://tcftest.org/schema/newProperty> <http://www.w3.org/2000/01/rdf-schema#label> "newProperty" .
 <http://tcftest.org/schema/newProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<http://tcftest.org/schema/RailPackage> <http://purl.org/dc/terms/modified> "2018-10-04T11:20:55.447Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/RailPackage> <http://tcftest.org/schema/example> "<test1> <test2> <test3>.\n<test2> <test3> <test3>." .
+<http://tcftest.org/schema/RailPackage> <http://purl.org/dc/terms/modified> "2018-10-04T14:14:49.156Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailPackage> <http://tcftest.org/schema/example> "<test1> <test2> <test3>.\n<test2> <test3> <test3>.<test1> <test2> <test3>.\n<test2> <test3> <test3>." .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#description> "Package in rail dd" .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Package" .
