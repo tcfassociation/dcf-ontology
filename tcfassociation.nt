@@ -38,10 +38,17 @@
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Because we can" .
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#description> "A steam engine." .
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#label> "SteamEngine" .
+<http://tcftest.org/schema/Waggon> <http://purl.org/dc/terms/modified> "2018-09-25T12:29:20.139Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Waggon> <http://tcftest.org/schema/example> "<http://example.org/mywaggon> a <http://tcftest.org/schema/Waggon> ;\n<http://tcftest.org/schema/weight> \"1234\" ." .
+<http://tcftest.org/schema/Waggon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/Waggon> <http://www.w3.org/2000/01/rdf-schema#comment> "Here be waggons" .
+<http://tcftest.org/schema/Waggon> <http://www.w3.org/2000/01/rdf-schema#description> "Class for a waggon" .
+<http://tcftest.org/schema/Waggon> <http://www.w3.org/2000/01/rdf-schema#label> "Waggon" .
 <http://tcftest.org/schema/weight> <http://purl.org/dc/terms/modified> "2018-09-05T14:58:39.060Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of the thing." .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SteamEngine> .
+<http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Waggon> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#label> "weight" .
