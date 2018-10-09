@@ -38,6 +38,12 @@
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Because we can" .
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#description> "A steam engine." .
 <http://tcftest.org/schema/SteamEngine> <http://www.w3.org/2000/01/rdf-schema#label> "SteamEngine" .
+<http://tcftest.org/schema/test> <http://purl.org/dc/terms/modified> "2018-10-09T18:39:48.827Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#description> "test" .
+<http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#label> "test" .
+<http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://tcftest.org/schema/weight> <http://purl.org/dc/terms/modified> "2018-09-05T14:58:39.060Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of the thing." .
