@@ -12,6 +12,12 @@
 <http://tcftest.org/schema/Awb> <http://purl.org/dc/terms/modified> "2018-10-04T12:21:18.964Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Awb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/Awb> <http://www.w3.org/2000/01/rdf-schema#label> "awb" .
+<http://tcftest.org/schema/captain> <http://purl.org/dc/terms/modified> "2018-10-12T11:43:50.103Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/captain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/captain> <http://www.w3.org/2000/01/rdf-schema#comment> "**Captain** and **chief officer** are overlapping terms, formal or informal, for the commander of a military unit, the commander of a ship, airplane, spacecraft, or other vessel, or the commander of a port, fire department or police department, election precinct, etc. Captain is a military rank in armies, navies, coast guards, etc., typically at the level of an officer commanding a company of infantry, a ship, or a battery of artillery, or similar distinct unit. Chief officer may be used interchangeably with captain in some situations, as when a Captain-ranked Navy officer is serving as the commander of a ship. The terms also may be used as an informal or honorary title for persons in similar commanding roles. In mining (esp. [Cornish](https://en.wikipedia.org/wiki/Cornwall \"Cornwall\")), it is an honorific given the superintendent or manager of a mine.  " .
+<http://tcftest.org/schema/captain> <http://www.w3.org/2000/01/rdf-schema#description> "highest rank on vessel" .
+<http://tcftest.org/schema/captain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Vessel> .
+<http://tcftest.org/schema/captain> <http://www.w3.org/2000/01/rdf-schema#label> "captain" .
 <http://tcftest.org/schema/carrier> <http://purl.org/dc/terms/modified> "2018-10-10T09:16:07.895Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/carrier> <http://tcftest.org/schema/example> "<https://www.example.org/myFlightManifest/carrier> a <http://schema.org/Organization> ;\n           <http://schema.org/legalName> \"carrier\" ." .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
