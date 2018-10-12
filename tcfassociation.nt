@@ -12,6 +12,18 @@
 <http://tcftest.org/schema/Awb> <http://purl.org/dc/terms/modified> "2018-10-04T12:21:18.964Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Awb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/Awb> <http://www.w3.org/2000/01/rdf-schema#label> "awb" .
+<http://tcftest.org/schema/cargoType> <http://purl.org/dc/terms/modified> "2018-10-12T11:09:34.248Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/cargoType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of cargo handled by the port." .
+<http://tcftest.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#description> "Cargo Type" .
+<http://tcftest.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Port> .
+<http://tcftest.org/schema/cargoType> <http://www.w3.org/2000/01/rdf-schema#label> "cargoType" .
+<http://tcftest.org/schema/cargoVolume> <http://purl.org/dc/terms/modified> "2018-10-12T11:09:34.248Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/cargoVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#comment> "Weight of Goods or number of containers per calendar year in tonnes." .
+<http://tcftest.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#description> "Cargo Weight" .
+<http://tcftest.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Port> .
+<http://tcftest.org/schema/cargoVolume> <http://www.w3.org/2000/01/rdf-schema#label> "cargoVolume" .
 <http://tcftest.org/schema/carrier> <http://purl.org/dc/terms/modified> "2018-10-10T09:16:07.895Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/carrier> <http://tcftest.org/schema/example> "<https://www.example.org/myFlightManifest/carrier> a <http://schema.org/Organization> ;\n           <http://schema.org/legalName> \"carrier\" ." .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -72,6 +84,17 @@
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LineItem> .
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#label> "pieces" .
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://tcftest.org/schema/Port> <http://purl.org/dc/terms/modified> "2018-10-12T11:09:34.248Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#comment> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<http://tcftest.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#description> "harbour" .
+<http://tcftest.org/schema/Port> <http://www.w3.org/2000/01/rdf-schema#label> "Port" .
+<http://tcftest.org/schema/portName> <http://purl.org/dc/terms/modified> "2018-10-12T11:09:34.248Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/portName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#comment> "Any port, terminal, offshore terminal, ship and repair yard or roadstead which is normally used for the loading, unloading, repair and anchoring of ships, or any other place at which a ship can call. The word also embraces, geographically, the city or borough which serves shipping interests." .
+<http://tcftest.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#description> "Port Name" .
+<http://tcftest.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Port> .
+<http://tcftest.org/schema/portName> <http://www.w3.org/2000/01/rdf-schema#label> "portName" .
 <http://tcftest.org/schema/RailPackage> <http://purl.org/dc/terms/modified> "2018-10-04T11:20:55.447Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailPackage> <http://tcftest.org/schema/example> "<test1> <test2> <test3>.\n<test2> <test3> <test3>." .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
