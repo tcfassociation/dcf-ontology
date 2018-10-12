@@ -29,6 +29,7 @@
 <http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Forwarders Pouch, you will find data typically from the following documents; House Waybill, Waybill, House Manifest, Consignment Security Declaration, Booking." .
 <http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
 <http://tcftest.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Port> .
 <http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#comment> "A pouch is an entity we use to logically group data elements together for the role in the logistics chain that predominantly would provide the data.  It is intended to enably a quick access to schema needed. For the Maritime Pouch, you will find data typically from the following documents; Bill-of-Lading, Sea Waybill." .
 <http://tcftest.org/pouch/MaritimePouch> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Pouch" .
