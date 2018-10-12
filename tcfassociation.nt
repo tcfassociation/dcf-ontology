@@ -44,6 +44,12 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
+<http://tcftest.org/schema/imoNumber> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/imoNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "A number assigned to sea-going merchant vessels under the International Convention for the Safety of Life at Sea (SOLAS). These are assigned by IHS Fairplay to individual vessels. Format: The characters “IMO” followed by a unique seven-digit number, e.g. “IMO 9227338”." .
+<http://tcftest.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#description> "IMO Number" .
+<http://tcftest.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Vessel> .
+<http://tcftest.org/schema/imoNumber> <http://www.w3.org/2000/01/rdf-schema#label> "imoNumber" .
 <http://tcftest.org/schema/lineItem> <http://purl.org/dc/terms/modified> "2018-10-10T09:16:07.895Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/LineItem> <http://purl.org/dc/terms/modified> "2018-10-10T09:16:07.895Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/lineItem> <http://tcftest.org/schema/example> "<https://www.example.org/myFlightManifest/uld-1> <http://digitalcargoforum.org/schema/lineItem> <https://www.example.org/myFlightManifest/lineItem-2> ." .
@@ -116,6 +122,22 @@
 <http://tcftest.org/schema/uldTotalWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Uld> .
 <http://tcftest.org/schema/uldTotalWeight> <http://www.w3.org/2000/01/rdf-schema#label> "uldTotalWeight" .
 <http://tcftest.org/schema/uldTotalWeight> <http://www.w3.org/2000/01/rdf-schema#range> "http://www.w3.org/2001/XMLSchema#decimal" .
+<http://tcftest.org/schema/vessel> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
+<http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#description> "a boat!" .
+<http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#description> "vessel" .
+<http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#label> "vessel" .
+<http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
+<http://tcftest.org/schema/vesselType> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/vesselType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#comment> "The purpose of the vessel. A comprehensive list of unique vessel types exists in the IHS Fairplay’s comprehensive “statcode”." .
+<http://tcftest.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#description> "Vessel Type" .
+<http://tcftest.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Vessel> .
+<http://tcftest.org/schema/vesselType> <http://www.w3.org/2000/01/rdf-schema#label> "vesselType" .
 <http://tcftest.org/schema/weight> <http://purl.org/dc/terms/modified> "2018-09-05T14:58:39.060Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/weight> <http://www.w3.org/2000/01/rdf-schema#description> "The weight of the thing." .
