@@ -137,12 +137,12 @@
 <http://tcftest.org/schema/uldTotalWeight> <http://www.w3.org/2000/01/rdf-schema#label> "uldTotalWeight" .
 <http://tcftest.org/schema/uldTotalWeight> <http://www.w3.org/2000/01/rdf-schema#range> "http://www.w3.org/2001/XMLSchema#decimal" .
 <http://tcftest.org/schema/vessel> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-10-12T11:18:17.989Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-10-17T11:24:50.249Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
 <http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#comment> "Vessel is defined as watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water." .
-<http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#description> "a boat!" .
+<http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#description> "a bigger boat!" .
 <http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#description> "vessel" .
 <http://tcftest.org/schema/vessel> <http://www.w3.org/2000/01/rdf-schema#label> "vessel" .
 <http://tcftest.org/schema/Vessel> <http://www.w3.org/2000/01/rdf-schema#label> "Vessel" .
