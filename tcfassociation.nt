@@ -26,6 +26,11 @@
 <http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#description> "short" .
 <http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
+<http://tcftest.org/schema/enterprise> <http://purl.org/dc/terms/modified> "2018-10-17T08:09:57.365Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/enterprise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/enterprise> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
+<http://tcftest.org/schema/enterprise> <http://www.w3.org/2000/01/rdf-schema#label> "enterprise" .
+<http://tcftest.org/schema/enterprise> <http://www.w3.org/2000/01/rdf-schema#range> "http://schema.org/Organization" .
 <http://tcftest.org/schema/FlightManifest> <http://purl.org/dc/terms/modified> "2018-10-10T09:16:07.895Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/FlightManifest> <http://tcftest.org/schema/example> "<https://www.example.org/myFlightManifest> a <http://digitalcargoforum.org/schema/FlightManifest> ." .
 <http://tcftest.org/schema/FlightManifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -78,7 +83,7 @@
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LineItem> .
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#label> "pieces" .
 <http://tcftest.org/schema/pieces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<http://tcftest.org/schema/RailPackage> <http://purl.org/dc/terms/modified> "2018-10-04T11:20:55.447Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailPackage> <http://purl.org/dc/terms/modified> "2018-10-17T08:09:57.365Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailPackage> <http://tcftest.org/schema/example> "<test1> <test2> <test3>.\n<test2> <test3> <test3>." .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#description> "Package in rail dd" .
