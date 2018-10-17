@@ -19,7 +19,7 @@
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#description> "Short Description" .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/FlightManifest> .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#label> "carrier" .
-<http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#range> "http://schema.org/Organization" .
+<http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-09-10T10:02:20.414Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "long" .
