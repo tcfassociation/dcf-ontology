@@ -25,6 +25,14 @@
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/FlightManifest> .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#label> "carrier" .
 <http://tcftest.org/schema/carrier> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcftest.org/schema/color> <http://purl.org/dc/terms/modified> "2018-11-14T13:55:55.525Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/color> <http://www.w3.org/2000/01/rdf-schema#description> "Color of the thing" .
+<http://tcftest.org/schema/color> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
+<http://tcftest.org/schema/color> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/color> <http://www.w3.org/2000/01/rdf-schema#label> "color" .
+<http://tcftest.org/schema/color> <http://www.w3.org/2000/01/rdf-schema#range> <<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2000/01/rdf-schema#label> "String" .
+> .
 <http://tcftest.org/schema/company> <http://purl.org/dc/terms/modified> "2018-10-17T09:28:05.521Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/company> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailPackage> .
