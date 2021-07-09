@@ -97,7 +97,8 @@
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#description> "Package in rail dd" .
 <http://tcftest.org/schema/RailPackage> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Package" .
-<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-10-05T08:08:20.773Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ShippersInstruction> <http://purl.org/dc/terms/modified> "2018-10-09T18:38:52.051Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ShippersInstruction> <http://tcftest.org/schema/example> "<test1> <test2> <test3>." .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "very long" .
 <http://tcftest.org/schema/ShippersInstruction> <http://www.w3.org/2000/01/rdf-schema#description> "short" .
